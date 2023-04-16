@@ -140,7 +140,7 @@ function Contact() {
                     name="name"
                     value={sender_name}
                     autoComplete="name"
-                    autoFocus
+                    // autoFocus
                   />
                   <TextField
                     margin="normal"
@@ -152,7 +152,7 @@ function Contact() {
                     onChange={handleEmail}
                     value={sender_email}
                     autoComplete="email"
-                    autoFocus
+                    // autoFocus
                   />
                   <TextField
                     margin="normal"
@@ -165,6 +165,7 @@ function Contact() {
                     value={sender_message}
                     id="Message"
                     autoComplete="Message"
+                    multiline
                   />
                   <FormControlLabel
                     control={<Checkbox value="remember" color="primary" />}
