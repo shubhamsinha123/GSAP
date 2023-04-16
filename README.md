@@ -1,10 +1,6 @@
-![React-JS-GSAP-Animation]
+[React-JS-GSAP-Animation]
 
 <!-- (https://user-images.githubusercontent.com/82109268/160250327-e64f9ec7-3fba-49ce-b004-5b22ac34246f.jpg) -->
-
-# This project major structures referred from 
-https://github.com/Rajacharles
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -75,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# This project major structures referred from: 
+https://github.com/Rajacharles
