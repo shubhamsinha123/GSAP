@@ -1,4 +1,6 @@
-![React-JS-GSAP-Animation](https://user-images.githubusercontent.com/82109268/160250327-e64f9ec7-3fba-49ce-b004-5b22ac34246f.jpg)
+![React-JS-GSAP-Animation]
+
+<!-- (https://user-images.githubusercontent.com/82109268/160250327-e64f9ec7-3fba-49ce-b004-5b22ac34246f.jpg) -->
 
 # This project major structures referred from 
 https://github.com/Rajacharles
