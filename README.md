@@ -74,3 +74,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # This project major structures referred from: 
 https://github.com/Rajacharles
+
+\
+
