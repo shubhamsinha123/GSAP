@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GSAP/static/css/main.a7f76329.css",
+    "main.js": "/GSAP/static/js/main.583057c6.js",
+    "static/media/home.png": "/GSAP/static/media/home.5ac352c3f5187a478609.png",
+    "static/media/portfolio8.jpg": "/GSAP/static/media/portfolio8.2777e4ad51224ad6c2b6.jpg",
+    "static/media/portfolio9.jpg": "/GSAP/static/media/portfolio9.cf1bb2ee87e7dd16545b.jpg",
+    "static/media/paris.png": "/GSAP/static/media/paris.6460d914a62af654176d.png",
+    "static/media/portfolio3.jpg": "/GSAP/static/media/portfolio3.af842ca385c02c572a23.jpg",
+    "static/media/portfolio10.jpg": "/GSAP/static/media/portfolio10.ce7f0f852d09fb04ed11.jpg",
+    "static/media/portfolio4.jpg": "/GSAP/static/media/portfolio4.266a424a9548c8aa4fcd.jpg",
+    "static/media/portfolio5.jpg": "/GSAP/static/media/portfolio5.d14db7a5237a67a07709.jpg",
+    "static/media/portfolio6.jpg": "/GSAP/static/media/portfolio6.3abf96678f7206e2b8fd.jpg",
+    "static/media/portfolio7.jpg": "/GSAP/static/media/portfolio7.4e628b5f08374382863f.jpg",
+    "static/media/pricing1.png": "/GSAP/static/media/pricing1.c7a3c733ddfb18e16a1d.png",
+    "static/media/canada.jpg": "/GSAP/static/media/canada.af03de86afb05c5ea0cf.jpg",
+    "static/media/pricing2.png": "/GSAP/static/media/pricing2.8b5337eb0ba19089a6c1.png",
+    "static/media/milestone-background.png": "/GSAP/static/media/milestone-background.4ed80b24e9b453afc55d.png",
+    "index.html": "/GSAP/index.html",
+    "static/media/logo.svg": "/GSAP/static/media/logo.55dd4053d4ba525fd2d10c283b1d746e.svg",
+    "main.a7f76329.css.map": "/GSAP/static/css/main.a7f76329.css.map",
+    "main.583057c6.js.map": "/GSAP/static/js/main.583057c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7f76329.css",
+    "static/js/main.583057c6.js"
+  ]
+}
