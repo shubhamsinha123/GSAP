@@ -42,13 +42,13 @@ function Skills() {
             skillsData.map(({ name, amount }) => {
               return (
                 <motion.div className="skills__bars__bar" key={name}
-                variants={skillsBarAnimation}
-                animate={controls}
-                transition={{
-                  delay: 0.03,
-                  type: "tween",
-                  duration: 0.8,
-                }}
+                  variants={skillsBarAnimation}
+                  animate={controls}
+                  transition={{
+                    delay: 0.03,
+                    type: "tween",
+                    duration: 0.8,
+                  }}
                 >
                   <div className="container">
                     <progress value={amount} max="100" />
@@ -65,8 +65,8 @@ function Skills() {
             Beauty Services and Products
           </p>
           <p className="description">
-            To be a successful beautician, you should have a wide range 
-            of skills in beauty services, good communication skills, 
+            To be a successful beautician, you should have a wide range
+            of skills in beauty services, good communication skills,
             and the ability to advise clients on suitable hairstyles.
           </p>
         </div>
@@ -79,7 +79,7 @@ const Section = styled.section`
 min-height: 100vh;
   height: 140vh;
   background-color: var(--secondary-color);
-  
+
   .sideTitle {
     h1 {
       color: #fff;
@@ -135,7 +135,7 @@ min-height: 100vh;
               border-radius: 20px;
             }
             &::-webkit-progress-value {
-              background-color: white; 
+              background-color: white;
               border-radius: 20px;
             }
           }
@@ -155,7 +155,9 @@ min-height: 100vh;
       z-index: 2;
     }
   }
-  @media screen and (min-width: 280px) and (max-width: 1080px) { 
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    min-height: 0 !important;
+  height: 100vh !important;
     overflow-x: hidden;
     padding: 2rem 0;
     .background {
