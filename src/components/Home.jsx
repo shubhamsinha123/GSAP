@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import home from "assets/canada.jpg";
+import mobile from "assets/mobile.jpg";
 import play from "assets/play.png";
 import Navbar from './Navbar';
 import { motion } from "framer-motion";
@@ -17,20 +18,20 @@ function Home() {
         <div className="content">
           <div className="title">
             <h1>Digital Deck</h1>
-          </div>  
+          </div>
           <div className="subTitle">
             <p>
-              At the Beauty Parlour, we believe in beauty with a conscience. 
-              We have created a salon that offers the highest quality hair 
+              At the Beauty Parlour, we believe in beauty with a conscience.
+              We have created a salon that offers the highest quality hair
               services.
-            </p>  
+            </p>
           </div>
           <img src={play} alt="Play Button" />
-        </div>  
+        </div>
       </motion.div>
 
       <motion.div className="info"
-      variants={homeInfoAnimation}  
+      variants={homeInfoAnimation}
       transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
       >
           <div className="grid">
@@ -41,26 +42,26 @@ function Home() {
             <div className="col">
                 <strong>Email</strong>
                 <p>blossoms@gmail.com</p>
-            </div> 
+            </div>
             <div className="col">
                 <strong>Mobile</strong>
                 <p>+91 8897666511</p>
-            </div> 
+            </div>
             <div className="col">
                 <strong>Address</strong>
                 <p>322, Long Fly,</p>
                 <p>997773 India</p>
-            </div> 
+            </div>
             <div className="col">
                 <strong>Services</strong>
                 <p>Sparking</p>
                 <p>SPA Cream</p>
-            </div> 
+            </div>
             <div className="col">
                 <strong>Working Hours</strong>
                 <p>Monday to Friday</p>
                 <p>08:00 to 09:00</p>
-            </div>   
+            </div>
           </div>
       </motion.div>
     </Section>
@@ -111,6 +112,7 @@ const Section = styled.section`
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
+    background: url(${mobile}) no-repeat center;
     .home {
       .content {
         padding-left: 2rem;
