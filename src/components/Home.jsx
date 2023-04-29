@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
 import home from "assets/canada.jpg";
 import play from "assets/play.png";
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import { homeAnimation, homeInfoAnimation } from "animation";
 
@@ -10,58 +10,57 @@ function Home() {
   return (
     <Section id="home">
       <Navbar />
-      <motion.div className="home"
-      variants={homeAnimation}
-      transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+      <motion.div
+        className="home"
+        variants={homeAnimation}
+        transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
       >
         <div className="content">
           <div className="title">
             <h1>Digital Deck</h1>
-          </div>  
+          </div>
           <div className="subTitle">
             <p>
-              At the Beauty Parlour, we believe in beauty with a conscience. 
-              We have created a salon that offers the highest quality hair 
-              services.
-            </p>  
+              At the Digital Deck, we believe in people with a conscience. We
+              have created this page that can help you check out our insights.
+            </p>
           </div>
           <img src={play} alt="Play Button" />
-        </div>  
+        </div>
       </motion.div>
 
-      <motion.div className="info"
-      variants={homeInfoAnimation}  
-      transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
+      <motion.div
+        className="info"
+        variants={homeInfoAnimation}
+        transition={{ delay: 0.3, duration: 0.6, type: "tween" }}
       >
-          <div className="grid">
-            <div className="col">
-                <strong>Parlour</strong>
-                <p>Blossoms Academy</p>
-            </div>
-            <div className="col">
-                <strong>Email</strong>
-                <p>blossoms@gmail.com</p>
-            </div> 
-            <div className="col">
-                <strong>Mobile</strong>
-                <p>+91 8897666511</p>
-            </div> 
-            <div className="col">
-                <strong>Address</strong>
-                <p>322, Long Fly,</p>
-                <p>997773 India</p>
-            </div> 
-            <div className="col">
-                <strong>Services</strong>
-                <p>Sparking</p>
-                <p>SPA Cream</p>
-            </div> 
-            <div className="col">
-                <strong>Working Hours</strong>
-                <p>Monday to Friday</p>
-                <p>08:00 to 09:00</p>
-            </div>   
+        <div className="grid">
+          <div className="col">
+            <strong>Owner</strong>
+            <p>Deck Digital</p>
           </div>
+          <div className="col">
+            <strong>Email</strong>
+            <p>contact-deckdigital@dd.com</p>
+          </div>
+          <div className="col">
+            <strong>Address</strong>
+            <p>322, Stage Street,</p>
+            <p>400001 India</p>
+          </div>
+          <div className="col">
+            <strong>Activities</strong>
+            <p>Travelling</p>
+            <p>Hiking</p>
+            <p>Scuba Diving</p>
+            <p>Paragliding</p>
+          </div>
+          <div className="col">
+            <strong>Working Hours</strong>
+            <p>Anyday</p>
+            <p>08:00HS to 21:00HS</p>
+          </div>
+        </div>
       </motion.div>
     </Section>
   );
@@ -72,7 +71,7 @@ const Section = styled.section`
   min-height: 100vh;
   background-size: cover;
   position: relative;
-  .home{
+  .home {
     height: 100%;
     .content {
       display: flex;
@@ -133,4 +132,4 @@ const Section = styled.section`
   }
 `;
 
-export default Home
+export default Home;
