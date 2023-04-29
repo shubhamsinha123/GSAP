@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import home from "assets/canada.jpg";
+import mobile from "assets/mobile.jpg";
 import play from "assets/play.png";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
@@ -110,6 +111,7 @@ const Section = styled.section`
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
+    background: url(${mobile}) no-repeat center;
     .home {
       .content {
         padding-left: 2rem;
