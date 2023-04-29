@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/GSAP/static/css/main.a7f76329.css",
-    "main.js": "/GSAP/static/js/main.9610e780.js",
-    "static/media/home.png": "/GSAP/static/media/home.5ac352c3f5187a478609.png",
+    "main.css": "/GSAP/static/css/main.902b104d.css",
+    "main.js": "/GSAP/static/js/main.b9a002ec.js",
     "static/media/portfolio8.jpg": "/GSAP/static/media/portfolio8.2777e4ad51224ad6c2b6.jpg",
     "static/media/mobile.jpg": "/GSAP/static/media/mobile.5b90b927307c509c89fd.jpg",
     "static/media/portfolio9.jpg": "/GSAP/static/media/portfolio9.cf1bb2ee87e7dd16545b.jpg",
@@ -19,11 +18,11 @@
     "static/media/milestone-background.png": "/GSAP/static/media/milestone-background.4ed80b24e9b453afc55d.png",
     "index.html": "/GSAP/index.html",
     "static/media/logo.svg": "/GSAP/static/media/logo.55dd4053d4ba525fd2d10c283b1d746e.svg",
-    "main.a7f76329.css.map": "/GSAP/static/css/main.a7f76329.css.map",
-    "main.9610e780.js.map": "/GSAP/static/js/main.9610e780.js.map"
+    "main.902b104d.css.map": "/GSAP/static/css/main.902b104d.css.map",
+    "main.b9a002ec.js.map": "/GSAP/static/js/main.b9a002ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f76329.css",
-    "static/js/main.9610e780.js"
+    "static/css/main.902b104d.css",
+    "static/js/main.b9a002ec.js"
   ]
 }
