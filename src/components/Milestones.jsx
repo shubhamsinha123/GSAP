@@ -14,7 +14,7 @@ function Milestones() {
   const milestone = [
     {
       image: milestone1,
-      data: "Client Served",
+      data: "people's Dream Success",
       amount: "877",
     },
     {

@@ -12,6 +12,7 @@ import Testimonials from "components/Testimonials";
 import Video from "components/Video";
 import { motion } from "framer-motion";
 import React from "react";
+import TestimonialCarousel from "components/TestimonialExp";
 function HomeAll() {
   return (
     <>

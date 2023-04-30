@@ -12,16 +12,16 @@ function Pricing() {
   const [element, controls] = useScroll();
   const plans = [
     {
-      name: "Basic",
-      price: 13,
+      name: "Spain",
+      price: 1399,
     },
     {
-      name: "Pro",
-      price: 35,
+      name: "London",
+      price: 1199,
     },
     {
-      name: "Expert",
-      price: 77,
+      name: "Vancouver",
+      price: 1499,
     },
   ];
 
@@ -105,20 +105,20 @@ function Pricing() {
                   {data.map(({ value, type }, index2) => {
                     return (
                       <Fragment key={index2}>
-                        {name === "Basic" ? (
-                          type === name ? (
+                        {name === "Spain" ? (
+                          type === "Basic" ? (
                             <li>{value}</li>
                           ) : (
                             <li className="line">{value}</li>
                           )
-                        ) : name === "Pro" ? (
-                          type === "Basic" || type === name ? (
+                        ) : name === "London" ? (
+                          type === "Expert" || type === "Pro" ? (
                             <li>{value}</li>
                           ) : (
                             <li className="line">{value}</li>
                           )
                         ) : (
-                          name === "Expert" && <li>{value}</li>
+                          name === "Vancouver" && <li>{value}</li>
                         )}
                       </Fragment>
                     );

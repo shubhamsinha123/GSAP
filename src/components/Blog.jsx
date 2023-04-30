@@ -11,27 +11,28 @@ function Blog() {
   const [element, controls] = useScroll();
   const blogsData = [
     {
-      title: "PARLOUR JOURNAL",
-      type: "SPA",
+      title: "beautiful evening at spain",
+      type: "Travelling",
       image: `https://i.ibb.co/gr0ZwcG/marc-kleen-e-Rwm-Bvhfv-G8-unsplash.jpg`,
       description:
-        "Our blog is intended to help answer your hair related questions and provide information about healthy hair choices and products.",
+        "Our blog is intended to help answer your travel related questions and provide information about healthy hair choices and products.",
     },
     {
-      title: "REFELXOLOGY SKY",
-      type: "Relax",
+      title: "Enjoy visits",
+      type: "University",
       image: `https://i.ibb.co/XW6qxpR/will-truettner-b-BF9-V6qkj-D4-unsplash.jpg`,
       description:
-        "Reflexologists believe that these reflex points, pressing them creates real benefits for the person's health. If you have any questions, please email",
+        "Reflexologists believe that these reflex points, pressing them creates real benefits for the person's goal's. If you have any questions, please email",
     },
     {
-      title: "MEDITATION SUN",
-      type: "Yoga",
+      title: "Enjoy hiking",
+      type: "Hiking",
       image: "https://i.ibb.co/b7FQb61/billy-cox-SWYg-Ij6-CHq-U-unsplash.jpg",
       description:
-        "Keep your body and mind it pure and clean for the soul to reside in. Our Spa Offer yoga classes in areas. creates real benefits for the person's health.",
+        "Keep your body and mind it pure and clean for the soul to reside in. Our team Offer best in areas, helps creates environment best for the person's wellbeing.",
     },
   ];
+
   return (
     <Style id="blog" ref={element}>
       <Title value="Blog" />
@@ -61,7 +62,7 @@ function Blog() {
               <div className="more">
                 <img src={play} alt="Play" />
                 {/* <span>Read More</span> */}
-                <Link to="/demo">Read More</Link>
+                <Link to="/new-page">Read More</Link>
               </div>
             </motion.div>
           );
@@ -98,6 +99,8 @@ const Style = styled.section`
         h3 {
           color: var(--secondary-color);
           font-size: 1.5rem;
+          height: 8vh;
+          text-transform: uppercase;
         }
       }
       .type {
@@ -128,7 +131,7 @@ const Style = styled.section`
     .blogs {
       padding: 0 2rem;
       grid-template-columns: 1fr;
-      margin: 0 1rem;
+      margin: 0;
     }
   }
 `;

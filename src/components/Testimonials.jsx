@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { testimonialsAnimations } from "animation";
 
+import { Virtual } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/virtual";

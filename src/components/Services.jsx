@@ -114,6 +114,14 @@ const Section = styled.section`
       grid-template-columns: 1fr;
       gap: 2rem;
       padding: 0 2rem;
+      &__service {
+        &__image {
+          img {
+            width: 18em;
+            height: 13em;
+          }
+        }
+      }
     }
   }
 `;
