@@ -115,6 +115,7 @@ const Section = styled.section`
       gap: 2rem;
       padding: 0 2rem;
       &__service {
+        padding: 1rem;
         &__image {
           img {
             width: 18em;
