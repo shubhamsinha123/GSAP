@@ -67,17 +67,16 @@ function Portfolio() {
           className="child-eight grid-box"
         ></motion.div>
       </div>
-      <div className="portfolio-more">
+      {/* <div className="portfolio-more">
         <span>Load More</span>
         <img src={loadmore} alt="Load More" />
-      </div>
+      </div> */}
     </Section>
   );
 }
 
 const Section = styled.section`
   min-height: 100vh;
-  padding-bottom: 2rem;
   background-color: var(--secondary-color);
   .grid {
     display: grid;
