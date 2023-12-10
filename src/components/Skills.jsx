@@ -9,23 +9,23 @@ function Skills() {
   const [element, controls] = useScroll();
   const skillsData = [
     {
-      name: "Facial",
+      name: "R&D",
       amount: 75,
     },
     {
-      name: "Skin",
+      name: "RoadSuccess",
       amount: 50,
     },
     {
-      name: "SPA",
+      name: "Success",
       amount: 90,
     },
     {
-      name: "Cosmetic",
+      name: "Cost",
       amount: 70,
     },
     {
-      name: "Salon",
+      name: "Marketing & Sales",
       amount: 90,
     },
   ];
@@ -53,15 +53,17 @@ function Skills() {
               >
                 <div className="container">
                   <progress value={amount} max="100" />
-                  <span>{name}</span>
+                  {/* <span>{name}</span> */}
+                  <h4>{amount}%</h4>
                 </div>
-                <h3>{amount}%</h3>
+                <h4>{name}</h4>
+                {/* <h3>{amount}%</h3> */}
               </motion.div>
             );
           })}
         </div>
         <div className="skills__content">
-          <p className="title">Beauty Services and Products</p>
+          <p className="title">Digital Services and Products</p>
           <p className="description">
             To be a successful beautician, you should have a wide range of
             skills in beauty services, good communication skills, and the
@@ -118,10 +120,10 @@ const Section = styled.section`
           display: flex;
           flex-direction: column;
           gap: 2.5rem;
-          span {
-            text-transform: uppercase;
-            letter-spacing: 0.2rem;
+          h4 {
+            transform: rotate(0deg);
             color: var(--primary-color);
+            font-size: 2rem;
           }
           progress {
             width: 30rem;
@@ -138,10 +140,11 @@ const Section = styled.section`
             }
           }
         }
-        h3 {
-          transform: rotate(0deg);
+        
+        h4 {
+          text-transform: uppercase;
+          letter-spacing: 0.2rem;
           color: #fff;
-          font-size: 2rem;
         }
       }
     }

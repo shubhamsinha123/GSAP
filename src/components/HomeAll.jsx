@@ -23,7 +23,7 @@ function HomeAll() {
         <Milestones />
         <Blog />
         {/* <Video /> */}
-        <Pricing />
+        {/* <Pricing /> */}
         <Testimonials />
         <Skills />
         <Contact />

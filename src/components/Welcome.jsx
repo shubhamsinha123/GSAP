@@ -7,6 +7,7 @@ import imgGirl from "../assets/girl.webp";
 import imgBoy from "../assets/boy.webp";
 import arrow from "../assets/arrow-right.svg";
 import { Link } from "react-router-dom";
+import { CircleApp } from "./MouseHover";
 
 function Welcome() {
   let app = useRef(null);
@@ -63,6 +64,7 @@ function Welcome() {
 
   return (
     <Section>
+      <CircleApp />
       <div className="hero" ref={(el) => (app = el)}>
         <div className="container">
           <div className="hero-inner">
