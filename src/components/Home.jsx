@@ -46,7 +46,10 @@ function Home() {
           </div>
           <div className="col">
             <strong>Address</strong>
-            <p>Building 2, 1st Floor, 16th Cross Main Road, NGR Layout, Bommanahalli, Bangalore,</p>
+            <p>
+              Building 2, 1st Floor, 16th Cross Main Road, NGR Layout,
+              Bommanahalli, Bangalore,
+            </p>
             <p>560068 India</p>
           </div>
           <div className="col">
