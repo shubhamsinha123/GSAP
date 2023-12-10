@@ -71,7 +71,7 @@ const Section = styled.section`
     margin-top: 10rem;
     gap: 5rem;
     &__service {
-      padding: 2rem;
+      padding: 1rem;
       &:nth-of-type(2) {
         background-color: var(--primary-color);
         .services__service__title {
@@ -86,7 +86,7 @@ const Section = styled.section`
       &__image {
         margin-bottom: 3rem;
         img {
-          width: 15em;
+          width: 19rem;
           height: 9em;
         }
       }
@@ -118,7 +118,7 @@ const Section = styled.section`
         padding: 1rem;
         &__image {
           img {
-            width: 18em;
+            width: 77vw;
             height: 13em;
           }
         }

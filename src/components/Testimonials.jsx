@@ -20,7 +20,7 @@ function Testimonials() {
       designation: "Developer, MD",
       name: "Shubham Sinha",
       review:
-        "Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Michelle and her dedicated team will do their best to meet your needs and give you your ultimate treatment. Massages are a must and worth every penny. Highly worth a visit !",
+        "Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Shubham and his dedicated team will do their best to meet your needs and give you your ultimate travel suggestions. Highly worth a visit !",
     },
     {
       designation: "CTO",
@@ -144,7 +144,7 @@ const Section = styled.section`
         width: 80%;
         .testimonial {
           .description {
-            height: 18rem;
+            height: 1rem;
           }
         }
       }

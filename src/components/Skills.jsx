@@ -65,9 +65,9 @@ function Skills() {
         <div className="skills__content">
           <p className="title">Digital Services and Products</p>
           <p className="description">
-            To be a successful beautician, you should have a wide range of
-            skills in beauty services, good communication skills, and the
-            ability to advise clients on suitable hairstyles.
+            To be a successful at travel industries, you should have a wide range of
+            skills at exploring map, good communication skills, and the
+            ability to advise clients on suitable destintions.
           </p>
         </div>
       </div>
@@ -174,7 +174,7 @@ const Section = styled.section`
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 1rem;
+      gap: 10rem;
       &__bars {
         padding: 0.2rem;
         gap: 0rem;
@@ -193,6 +193,9 @@ const Section = styled.section`
           }
           h3 {
             font-size: 1rem;
+          }
+          h4{
+            max-width: 3rem;
           }
         }
       }

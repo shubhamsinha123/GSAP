@@ -42,12 +42,12 @@ function Home() {
           </div>
           <div className="col">
             <strong>Email</strong>
-            <p>contact-deckdigital@dd.com</p>
+            <p>contactus-deck@deckdigital.com</p>
           </div>
           <div className="col">
             <strong>Address</strong>
-            <p>322, Stage Street,</p>
-            <p>400001 India</p>
+            <p>Building 2, 1st Floor, 16th Cross Main Road, NGR Layout, Bommanahalli, Bangalore,</p>
+            <p>560068 India</p>
           </div>
           <div className="col">
             <strong>Activities</strong>
@@ -58,8 +58,8 @@ function Home() {
           </div>
           <div className="col">
             <strong>Working Hours</strong>
-            <p>Anyday</p>
-            <p>08:00HS to 21:00HS</p>
+            <p>Saturday - Sunday</p>
+            <p>11:00AM to 04:00PM (IST)</p>
           </div>
         </div>
       </motion.div>
