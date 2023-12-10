@@ -1,4 +1,4 @@
-import React,{
+import React, {
   useEffect,
   useRef,
   useState,
@@ -7,19 +7,19 @@ import React,{
 } from "react";
 import gsap from "gsap";
 const Circle = forwardRef(({ size, delay }, ref) => {
-    console.log(ref, 'Hi');
+  console.log(ref, "Hi");
   const el = useRef();
 
   useImperativeHandle(
     ref,
     () => {
       // return our API
-      console.log('from imperative');
+      console.log("from imperative");
       return {
         moveTo(x, y) {
-            console.log('before gsap');
+          console.log("before gsap");
           gsap.to(el.current, { x, y, delay });
-          console.log('after gsap');
+          console.log("after gsap");
         },
       };
     },

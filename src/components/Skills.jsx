@@ -140,7 +140,7 @@ const Section = styled.section`
             }
           }
         }
-        
+
         h4 {
           text-transform: uppercase;
           letter-spacing: 0.2rem;
