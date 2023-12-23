@@ -77,6 +77,7 @@ const Section = styled.section`
   position: relative;
   .home {
     height: 100%;
+    margin-top: -4rem;
     .content {
       display: flex;
       flex-direction: column;
@@ -104,7 +105,9 @@ const Section = styled.section`
     position: absolute;
     bottom: -6rem;
     right: 0;
-    background-color: var(--secondary-color);
+    width: 58rem;
+    // background-color: var(--secondary-color);
+    background-color: #000;
     padding: 4rem;
     .grid {
       display: grid;
@@ -116,6 +119,7 @@ const Section = styled.section`
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     background: url(${mobile}) no-repeat center;
     .home {
+      margin-top: 0;
       .content {
         padding-left: 2rem;
         width: 100%;
@@ -123,6 +127,7 @@ const Section = styled.section`
         .title {
           h1 {
             font-size: 4rem;
+            margin-left: -1.25rem;
             line-height: 4rem;
           }
         }

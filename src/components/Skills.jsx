@@ -78,7 +78,7 @@ function Skills() {
 const Section = styled.section`
   min-height: 100vh;
   height: 140vh;
-  background-color: var(--secondary-color);
+  background-color: #536340;
 
   .sideTitle {
     h1 {

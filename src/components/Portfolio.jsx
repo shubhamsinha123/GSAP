@@ -77,7 +77,8 @@ function Portfolio() {
 
 const Section = styled.section`
   min-height: 100vh;
-  background-color: var(--secondary-color);
+  // background-color: var(--secondary-color);
+  background-color: #000;
   .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
